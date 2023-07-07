@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=], initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <style>
+        header {
+            display: flex;
+            background: rgba(42, 157, 143, 0.69);
+            height: 122px;
+            justify-content: space-between;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main > * {
+            border: solid;
+        }
+
+        header > * {
+            border: 1px solid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .imagemSection {
+            height: 240px;
+        }
+
+        .menuBurguer {
+            justify-content: center;
+            text-align: center;
+        }
+
+        .produtosSection {
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+            height: 450px;
+        }
+
+        .produtosCima > * {
+            border: 1px solid;
+            height: 150px;
+            width: 150px; 
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly; 
+        }
+
+        .produtosMeio > * {
+            border: 1px solid;
+            height: 150px;
+            width: 150px; 
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly; 
+        }
+
+        .produtosBaixo > * {
+            border: 1px solid;
+            height: 150px;
+            width: 150px;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        .produtosSection > * {
+            border: 1px solid;
+        }
+
+        .footerSection > * {
+            border: 1px solid;
+        }
+
+        .footerSection {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .botaoAcessibi {
+            justify-content: flex-end;
+        }
+
+    </style>
+
+    <body>
+        <header>
+            <div class="menuBurguer">
+                menu burger
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </div>
+
+            <h2>Affective</h2>
+
+            <div>
+                icones
+            </div>
+        </header>
+        
+        <main>
+            <div class="imagemSection">
+                <img src="" alt="">
+                imagem
+            </div>
+
+            <div class="produtosSection">
+                <div class="produtosCima">
+                    <div class="produto">Vela</div>
+                    <div class="produto">Sabonete</div>
+                </div>
+
+                <div class="produtosMeio">
+                    <div class="produto">Hidradante</div>
+                    <div class="produto">Aromatizante</div>
+                </div>
+
+                <div class="produtosBaixo">
+                    <div class="produto">Amaciante</div>
+                    <div class="produto">óleo essencial</div>
+                </div>
+            </div>
+
+            <div class="footerSection">
+
+                <div class="botao">
+                    <button>Botão</button>
+                </div>
+
+                <div class="botAcessibi">
+                    <img src="" alt="botao1">
+                    <img src="" alt="botao2">
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
+
