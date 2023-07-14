@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tela2</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .base {
+        background-color: #FABEC0;
+        height: 100vh;
+        width: 100%;
+    }
+
+    .barra1 {
+        padding: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        background-color: cadetblue;
+        height: 69px;
+        width: 100%;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .titulo {
+        color: white;
+    }
+
+    .tituloproduto {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 100px;
+        color: black;
+        text-decoration: underline;
+    }
+
+    .iconesup {
+        display: flex;
+        gap: 32px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .setasdireita {
+        position: absolute;
+        left: 54%;
+        bottom: 18%;
+    }
+
+    .setasesquerda {
+        position: absolute;
+        left: 40%;
+        bottom: 14%;
+    }
+
+    .embalagem {
+        position: absolute;
+        left: 45%;
+        bottom: 10%;
+    }
+
+    .cor {
+        position: absolute;
+        left: 58%;
+        bottom: 49%;
+    }
+
+    .nome {
+        position: absolute;
+        left: 27%;
+        bottom: 38%;
+    }
+
+    .tamanho {
+        position: absolute;
+        left: 27%;
+        bottom: 7%;
+    }
+
+    .formato {
+        position: absolute;
+        left: 60%;
+        bottom: 10%;
+    }
+
+    .proximo {
+        position: absolute;
+        left: 80%;
+        bottom: 50%;
+    }
+
+    .voltar {
+        position: absolute;
+        left: 10%;
+        bottom: 50%;
+    }
+
+    button {
+        padding: 10px;
+        background-color: cadetblue;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        width: 200px;
+    }
+
+    .iconeinf {
+        background-color: cadetblue;
+        height: 60px;
+        width: 60px;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 95%;
+        bottom: 2%;
+        border-radius: 100px;
+    }
+
+    .iconeinf2 {
+        background-color: cadetblue;
+        height: 60px;
+        width: 60px;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 95%;
+        bottom: 15%;
+        border-radius: 100px;
+    }
+
+</style>
+
+<body>
+    <div class="base">
+        <div class="barra1">
+            <div class="menu">
+                <img src="menu.png" width="60px" height="50px">
+                <div class="titulo">
+                    <div class="h1">
+                        <h1>Affetive</h1>
+                    </div>
+                </div>
+                <div class="iconesup">
+                    <span>
+                        <img src="carrinho.png" width: 20px; height="35px">
+                    </span>
+                    <span>
+                        <img src="balaofala.png" width: 20px; height="35px">
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="tituloproduto">
+            <div class="h1">
+                <h1>Simulação do Produto Final</h1>
+            </div>
+        </div>
+
+        <div class="embalagem">
+            <figure><img src="embalagem.png" style="height: 350px; width: 130px;"></figure>
+        </div>
+
+        <div class="setasdireita">
+            <figure><img src="setasdireita.png" style="height: 220px; width: 90px;   " width: 20px; height="35px">
+            </figure>
+        </div>
+
+        <div class="setasesquerda">
+            <figure><img src="setasesquerda.png" style="height: 270px; width: 90px;   " width: 20px; height="35px">
+            </figure>
+        </div>
+
+        <div class="cor">
+            <figure><img src="cor.png" style="height: 70px; width: 170px;"></figure>
+        </div>
+
+        <div class="nome">
+            <figure><img src="nome.png" style="height: 70px; width: 170px;"></figure>
+        </div>
+
+        <div class="tamanho">
+            <figure><img src="tamanho.png" style="height: 60px; width: 160px;"></figure>
+        </div>
+
+        <div class="formato">
+            <figure><img src="formato.png" style="height: 60px; width: 160px;"></figure>
+        </div>
+
+        <div class="proximo">
+            <button>Próximo</button>
+        </div>
+        <div class="voltar">
+            <button>Voltar</button>
+        </div>
+
+        <div class="iconeinf"><img src="lupa.png" style="height: 40px; width: 40px;"></div>
+        <div class="iconeinf2"><img src="audicao.png" style="height: 40px; width: 40px;"></div>
+
+</body>
+
+</html>
