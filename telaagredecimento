@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background-color: cadetblue;
+            height: 100vh;
+            width: 100%;
+           }
+        .imagem{
+            position: absolute;
+            left: 35%;
+            bottom: 50%;
+            height: 80px;
+            width: 100px;
+        }  
+        
+    </style>
+</head>
+<body>
+    <div class="body">
+       <div class="imagem"><img src="pedido_confirmado-removebg-preview.png" alt="width= 150px height= 90px"></div>
+    </div>
+</body>
+</html>
